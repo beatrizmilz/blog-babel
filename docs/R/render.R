@@ -1,0 +1,1 @@
+babelquarto::render_website(site_url = "https://beatrizmilz.github.io/blog-babel/")
