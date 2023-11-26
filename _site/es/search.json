@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Beatriz Milz",
+    "section": "",
+    "text": "¡Hola! Mi nombre es Beatriz y soy una R-Lady de Brasil 🇧🇷 💜.\nSoy instructora de tidyverse certificada por RStudio y enseño R en Curso-R.\nEmpecé a escribir textos sobre R en 2019.\nSoy activa en la comunidad R en Brasil, participando en la coorganización de comunidades y eventos, como: R-Ladies São Paulo, Latin-R, y satRday São Paulo.\nEstoy haciendo un doctorado en la Universidad de São Paulo, en Ciencias Ambientales. Mi investigación trata sobre la transparencia de la información en la gestión de los recursos hídricos utilizados para el abastecimiento público en la Macrometrópolis de São Paulo."
+  },
+  {
+    "objectID": "posts/2019-08-12-tidydevday/index.en.html",
+    "href": "posts/2019-08-12-tidydevday/index.en.html",
+    "title": "Tidyverse developer day 2019 (tidy-dev-day)",
+    "section": "",
+    "text": "Notes from 8th July 2022\n\n\n\nHi! This post was written three years ago, in 2019. In this post, my friend Angélica and I share the experience of participating in the Tidyverse Developer Day 2019.\nAs rstudio::conf 2022 is coming up, I thought it would be nice to translate this post.\nWhile translating it, I remembered more about that day and thought about how much I had learned since then. That event was essential for me, and I learned so much 💜. So, thanks to everyone involved, specially RStudio and the tidyverse team that organized this event.\nThis post was originally published on Curso-R’s blog.\nIn this post, Beatriz Milz and Angélica Custódio talk about the experience of participating in the Tidyverse Developer Day 2019."
+  },
+  {
+    "objectID": "posts/2019-08-12-tidydevday/index.en.html#what-is-tidy-dev-day",
+    "href": "posts/2019-08-12-tidydevday/index.en.html#what-is-tidy-dev-day",
+    "title": "Tidyverse developer day 2019 (tidy-dev-day)",
+    "section": "What is tidy-dev-day?",
+    "text": "What is tidy-dev-day?\nTidyverse Developer Day (tidy-dev-day) is a day-long event where attendees learn more about how to contribute to tidyverse. The first edition was at rstudio::conf2019.\nThis was the second edition of tidy-dev-day and was a part of the useR!2019 conference, which took place in Toulouse, France. The event happened the day before the start of the conference, bringing together several people who participated in it.\nSomething to note is that the useR!2019 organization offered diversity scholarships, providing financial assistance to members of underrepresented groups in the R to participate in the conference. The diversity scholarships were fundamental for the participation of several people from different parts of the world, including the authors of this post (Bea and Angelica)."
+  },
+  {
+    "objectID": "posts/2019-08-12-tidydevday/index.en.html#how-was-tidy-dev-day",
+    "href": "posts/2019-08-12-tidydevday/index.en.html#how-was-tidy-dev-day",
+    "title": "Tidyverse developer day 2019 (tidy-dev-day)",
+    "section": "How was tidy-dev-day?",
+    "text": "How was tidy-dev-day?\nThe event had a code of conduct to provide a safe and friendly space for all participants.\nIn the event, participants had the opportunity to learn how to contribute to the tidyverse. Several developers and maintainers of the tidyverse were present and with a team of helpers. They helped participants, answered questions, reviewed the contributions, and so on.\nThe material used (instructions, presentations, suggested materials, etc.) is available in this Github repository.\nOn a wall of the room, several post-its indicated issues to be worked on, separated by packages and color. The color stated the type of issue (documentation, bug, feature).\nParticipants could choose an issue to work on during the event.\nOn another wall, post-its were separated into pull request post-its to be reviewed by Hadley Wickham and other maintainers, and post-its that had already been reviewed and accepted!\nAnother cool thing is that the space had several tables grouped, which helped to work with other people.\n\nCaption: Photo of the Tidy-Dev-Day, by @Dale_Masch.\nFor those participating for the first time, they recommended issues related to documentation improvements, as they are more natural for those who have never made a package contribution before.\nFor those who were already more familiar with package development, they recommended bug or feature issues, as they require a greater knowledge of package development."
+  },
+  {
+    "objectID": "posts/2019-08-12-tidydevday/index.en.html#beas-experience",
+    "href": "posts/2019-08-12-tidydevday/index.en.html#beas-experience",
+    "title": "Tidyverse developer day 2019 (tidy-dev-day)",
+    "section": "Bea’s experience",
+    "text": "Bea’s experience\nBy the time of the event, I have not developed a package yet. So when I arrived at the event, I didn’t knew how packages were structured. In the issue I choseto work on, the goal was to improve an error message from the function dplyr::filter(), so that the message would conform to the tidyverse style guide. \nCaption: Photo of the issue I was working on and the unique coin we received that day. Photo by @Bea_Milz.\nInitially, I forked the dplyr repository, cloned it to my computer, and did not know what to do next.\nI didn’t knew which directory the functions were in, and I was afraid of changing something and causing an error in other functions of the package… But I’m glad I had help!\nIldi Czeller showed me what directory the functions were in (by the way, it’s in /R), and then I was able to find the file I needed to change and what part of the code was corresponding to the filter() function. That was the first time I heard about tests, and I had to change the test referring to the error message I was working on.\nAfter making the changes I felt were necessary, I made a pull request. Hadley replied that someone else was also working on this issue and indicated where the person was sitting. So I went there and asked Colin (who was working on this same issue) if we could work together.\nHe was super welcoming! He explained how he was developing the improvement, and I also showed him what I had done. Hadley asked to change some tests, and we worked on it together (in this case, I was mostly learning and asking Colin, because tests were new to me).\n\nLegenda: The pull request was accepted!\nIt was a unique experience, and I learned a lot that day!"
+  },
+  {
+    "objectID": "posts/2019-08-12-tidydevday/index.en.html#angélicas-experience",
+    "href": "posts/2019-08-12-tidydevday/index.en.html#angélicas-experience",
+    "title": "Tidyverse developer day 2019 (tidy-dev-day)",
+    "section": "Angélica’s experience",
+    "text": "Angélica’s experience\nDuring tidy-dev-day, I worked on issues from ggplot2. It was a new experience, and it was gratifying to feel that I learned and contributed to the package.\nAt the event, several people facilitated the activity. They helped the participants with activities like how to do a fork on GitHub, work on the issue in R, make a pull request, and so on. I had the help of Ildi Czeller, who was one of the helpers and helped me at every step, giving tips from git settings to teaching shortcuts in Rstudio that made life easier (they are documented here).\n\n\n\n\nCaption: Creating a pull request in the ggplot2 package.\nThe activity promoted the engagement and contribution of everyone, from those who were new to package development, to those who already had a lot of experience.\nIt was a welcoming space to ask questions and ask for help.\nAt one point, I was able to talk to Hadley and ask questions about an issue I was working on. Understanding better ggplot2 with one of the authors of the package was an incredible learning experience."
+  },
+  {
+    "objectID": "posts/2019-08-12-tidydevday/index.en.html#final-remarks",
+    "href": "posts/2019-08-12-tidydevday/index.en.html#final-remarks",
+    "title": "Tidyverse developer day 2019 (tidy-dev-day)",
+    "section": "Final remarks",
+    "text": "Final remarks\nAccording to Hadley, more than 40 pull requests were accepted, and almost 30 needed to be reviewed:\n\n\n\n\nHuge thanks to everyone who contributed to tidyverse developer day! We merged over 40 PRs and have almost 30 more to review over the next few days pic.twitter.com/uM9Tg1dMeX\n\n— Hadley Wickham (@hadleywickham) July 8, 2019\n\n\n\nIt was an excellent opportunity to meet new people too! And to meet many people from the community that we admire.\n\nCaption: Angelica and Bea showing the issues that they were working on tidy-dev-day. Photo by Angélica Custódio."
+  },
+  {
+    "objectID": "posts/2019-08-12-tidydevday/index.html",
+    "href": "posts/2019-08-12-tidydevday/index.html",
+    "title": "Tidyverse developer day 2019 (tidy-dev-day)",
+    "section": "",
+    "text": "Dica\n\n\n\nEsse post foi origalmente publicado no blog da Curso-R.\nEste post tem como objetivo relatar a experiência de participar do Tidyverse Developer Day 2019, e tem como autoras a Beatriz Milz e a Angélica Custódio. A Bea é doutoranda em Ciência Ambiental na USP, e é uma das co-organizadoras do R-Ladies São Paulo, que é uma organização que tem como objetivo promover a diversidade de gênero na comunidade da linguagem R. A Angélica é formada em estatística pela UFSCar, e mestranda em Ciência da Computação na UFABC, também faz parte do R-Ladies São Paulo e do PyLadies São Paulo."
+  },
+  {
+    "objectID": "posts/2019-08-12-tidydevday/index.html#o-tidy-dev-day",
+    "href": "posts/2019-08-12-tidydevday/index.html#o-tidy-dev-day",
+    "title": "Tidyverse developer day 2019 (tidy-dev-day)",
+    "section": "O tidy-dev-day",
+    "text": "O tidy-dev-day\nO Tidyverse Developer Day (tidy-dev-day) é um evento com duração de um dia, onde os participantes aprendem mais sobre como contribuir com o tidyverse. O evento relatado aqui foi a segunda edição, sendo que a primeira aconteceu na rstudio::conf2019.\nNesta edição, o tidy-dev-day foi à parte da conferência useR!2019, que ocorreu em Toulouse, na França. O evento ocorreu um dia antes do início da conferência, reunindo diversas pessoas que participaram dela.\nAlgo a destacar é que a organização da useR!2019 selecionou pessoas para serem contempladas com bolsas de diversidade, fornecendo ajuda financeira a membros de grupos sub-representados na comunidade de R, ou historicamente marginalizados. Essa iniciativa foi fundamental para a participação de diversas pessoas, de diferentes partes do mundo. Inclusive para as duas pessoas que estão escrevendo agora sobre a experiência lá."
+  },
+  {
+    "objectID": "posts/2019-08-12-tidydevday/index.html#como-funcionou-o-evento",
+    "href": "posts/2019-08-12-tidydevday/index.html#como-funcionou-o-evento",
+    "title": "Tidyverse developer day 2019 (tidy-dev-day)",
+    "section": "Como funcionou o evento?",
+    "text": "Como funcionou o evento?\nO evento aconteceu no mesmo espaço da useR!2019, e tinha um código de conduta, com o objetivo de oferecer um ambiente seguro e amigável para todos os participantes. O evento não foi gratuito: foi necessário pagar uma taxa de $10 (dez dólares), com o intuito de diminuir o número de pessoas que se inscreve e não comparece no evento. No entanto, a organização aponta que o dinheiro será doado.\nComo o objetivo do evento é proporcionar um aprendizado sobre como contribuir com desenvolvimento e manutenção do tidyverse, estavam presentes diversos desenvolvedores e mantenedores do tidyverse, e também um time para ajudar os participantes, tirar dúvidas, etc.\nO material utilizado (instruções, apresentações, sugestões de material, etc) está disponível neste repositório no Github.\nEm uma parede no fundo da sala, haviam diversos post-its que indicavam issues a serem trabalhadas, e estavam separadas por pacotes, e também por cor, onde a cor indicava o tipo de issue (documentação, bug, feature). Os participantes escolhiam uma issue para trabalhar durante o evento, até a realização de um pull request. Em outra parede, os post-its estavam separados em: post-its de pull requests para serem avaliados pelo Hadley Wickham e outros contribuidores, e os post-its que já tinham sido avaliados e aceitos!\nOutra coisa legal é que o espaço disponibilizou diversas mesas agrupadas, o que ajudava a trabalhar em conjunto.\n\nLegenda: Foto tirada no tidy-dev-day, por @Dale_Masch.\nPara quem estava participando pela primeira vez eram recomendadas as issues de documentação, pois elas são mais naturais para quem nunca fez esse tipo de atividade antes. Para as pessoas que já tinham mais familiaridade eram recomendadas issues de bug ou feature que já exigem um conhecimento maior não só do pacote, mas também de como desenvolver a melhoria."
+  },
+  {
+    "objectID": "posts/2019-08-12-tidydevday/index.html#experiência-pessoal---bea",
+    "href": "posts/2019-08-12-tidydevday/index.html#experiência-pessoal---bea",
+    "title": "Tidyverse developer day 2019 (tidy-dev-day)",
+    "section": "Experiência pessoal - Bea",
+    "text": "Experiência pessoal - Bea\nEu nunca desenvovi um pacote, e ao chegar no evento nem sabia como pacotes eram estruturados. Na issue que eu escolhi, o objetivo era para melhorar uma mensagem de erro da função filter(), do pacote dplyr, para que a mensagem estivesse de acordo com o style guide do tidyverse. \nLegenda: Foto da issue que estava trabalhando, e também da moeda especial que recebemos, por @Bea_Milz.\nInicialmente, eu fiz o fork do repositório do dplyr, o clone no meu computador, e fiquei sem saber o que fazer depois. Eu não sabia em qual diretório ficavam as funções, estava com receio de alterar algo e causar algum erro em outras funções do pacote… Mas ainda bem que tive ajuda! A Ildi Czeller me mostrou em qual diretório as funções estavam (aliás, é no /R), e e então consegui encontrar o arquivo que precisava alterar, e qual parte do código era correspondente à função filter(). Uma coisa que conheci no evento e foi muito interessante é o conceito de testes, pois tive que alterar o teste referente à mensagem de erro que eu estava trabalhando.\nApós fazer as alterações que entendi que eram necessárias, fiz um pull request. O Hadley respondeu que outra pessoa também estava trabalhando neste tópico (haviam duas issues criadas para o mesmo problema), e indicou onde a pessoa estava sentada. Então fui lá e perguntei para o Colin (que estava trabalhando nesse mesmo problema) se poderíamos trabalhar na issue juntos. Ele foi super receptivo! Ele explicou como ele estava resolvendo, e eu também mostrei o que havia feito. O Hadley pediu para mudar uma função usada no teste, e ficamos trabalhando nisso juntos (no caso, eu estava mais aprendendo e perguntando para o Colin, pois os testes eram novidade para mim).\n\nLegenda: O pull request foi aceito!\nFoi uma experiência única, e aprendi muito nesse dia!"
+  },
+  {
+    "objectID": "posts/2019-08-12-tidydevday/index.html#experiência-pessoal---angélica",
+    "href": "posts/2019-08-12-tidydevday/index.html#experiência-pessoal---angélica",
+    "title": "Tidyverse developer day 2019 (tidy-dev-day)",
+    "section": "Experiência pessoal - Angélica",
+    "text": "Experiência pessoal - Angélica\nDurante o tidy-dev-day trabalhei em issues do ggplot2, foi uma experiência totalmente nova para mim e foi super gratificante a sensação de que eu aprendi e também pude contribuir.\nNo evento havia vários monitores facilitando a atividade, eles ajudavam desde como fazer o fork no github e trabalhar a issue no R até como fazer o pull request para fechar a issue. Contei com a ajuda da Ildi Czeller que era uma das monitoras e me auxiliou em todas as etapas, dando dicas desde configurações no git até ensinando atalhos no Rstudio que facilitaram a vida (estão documentados aqui).\n\nLegenda: Criando um pull request no pacote ggplot2.\nA atividade promoveu o engajamento e contribuição de todos, desde de quem era novato até quem já tinha bastante experiência. Era um espaço aberto para tirar dúvidas e pedir ajuda, em um determinado momento pude conversar com o Hadley e tirar dúvida sobre uma issue que eu estava trabalhando. Entender melhor qual era a interpretação de melhoria daquele ponto com um dos autores do pacote foi um aprendizado incrível."
+  },
+  {
+    "objectID": "posts/2019-08-12-tidydevday/index.html#conclusão",
+    "href": "posts/2019-08-12-tidydevday/index.html#conclusão",
+    "title": "Tidyverse developer day 2019 (tidy-dev-day)",
+    "section": "Conclusão",
+    "text": "Conclusão\nSegundo o Hadley, mais de 40 pull requests foram aceitos, e quase 30 precisavam ser revisados, o que mostra como o evento :\n\n\n\nHuge thanks to everyone who contributed to tidyverse developer day! We merged over 40 PRs and have almost 30 more to review over the next few days pic.twitter.com/uM9Tg1dMeX\n\n— Hadley Wickham (@hadleywickham) July 8, 2019\n\nFoi uma ótima oportunidade para conhecer pessoas novas também! E para conhecer pessoalmente muitas referências que temos na comunidade.\n\nLegenda: Angélica e Bea mostrando as issues que estavam trabalhando no tidy-dev-day, por AngCustodio."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "No hay resultados"
+  }
+]

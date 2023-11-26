@@ -1,0 +1,9 @@
+---
+title: "Blog"
+listing:
+  contents: "posts/*/*.qmd"
+  include:
+    lang: pt
+comments: false
+---
+

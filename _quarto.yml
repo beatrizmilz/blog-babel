@@ -1,0 +1,66 @@
+project:
+  type: website
+  preview:
+    port: 4200
+
+
+website:
+  page-navigation: true
+  title: "Bea Milz"
+  site-url: "https://beamilz.com/"
+  google-analytics: "G-2J79YYG9CZ"
+  page-footer:
+    left: "Blog made with 💜 and [Quarto](https://quarto.org/), by Beatriz Milz. License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
+    right:
+      - icon: github
+        href: https://github.com/beatrizmilz/
+      - icon: linkedin
+        href: https://www.linkedin.com/in/beatrizmilz/
+      - icon: envelope
+        href: mailto:milz.bea@gmail.com  
+  navbar:
+    left:
+      - href: index.qmd
+      - about.qmd
+
+format:
+  html:
+    smooth-scroll: true
+    theme: journal
+    css: styles.css
+    link-external-icon: false
+    link-external-newwindow: true
+    link-external-filter: '^(?:http:|https:)\/\/www\.beamilz\.com\/**'
+    citations-hover: true
+    footnotes-hover: true
+    toc: true
+    code-link: true
+
+editor: visual
+
+comments:
+  giscus:
+    repo: beatrizmilz/blog-en
+
+execute:
+  freeze: true
+
+
+
+babelquarto:
+  languagecodes:
+  - name: es
+    text: "Español "
+  - name: en
+    text: "English "
+  - name: pt
+    text: "Português "    
+  mainlanguage: 'pt'
+  languages: ['es', 'en']
+title-es: Bea Milz
+title-en: Bea Milz
+description-es: description in es
+description-en: description in en
+author-es: Beatriz Milz
+author-en: Beatriz Milz
+lang: pt

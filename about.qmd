@@ -1,0 +1,31 @@
+---
+title: "Beatriz Milz"
+comments: false
+image: bea.jpg
+about:
+  template: trestles
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:milz.bea@gmail.com
+    - icon: file-pdf
+      text: Resume
+      href: https://beatrizmilz.github.io/resume/index.pdf  
+    - icon: github
+      text: GitHub
+      href: https://github.com/beatrizmilz
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/beatrizmilz/     
+---
+
+Olá! Meu nome é Beatriz, e eu sou uma R-Lady do Brazil 🇧🇷 💜.
+
+Eu sou uma instrutora de tidyverse certificada pela RStudio, e eu ensino R na Curso-R.
+
+Eu comecei a escrever textos sobre R em 2019.
+
+Eu sou ativa na comunidade de R no Brasil, participando da co-organização de comunidades e eventos, como: R-Ladies São Paulo, Latin-R, e satRday São Paulo.
+
+Eu faço doutorado na Universidade de São Paulo, em Ciências Ambientais. Minha pesquisa é sobre transparência de informações na gestão de recursos hídricos usados para abastecimento público na Macrometrópole Paulista.
+
