@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
@@ -32,16 +32,16 @@ ul.task-list li input[type="checkbox"] {
   "type": "overlay",
   "limit": 20,
   "language": {
-    "search-no-results-text": "Nenhum resultado",
-    "search-matching-documents-text": "documentos correspondentes",
-    "search-copy-link-title": "Copiar link para a busca",
-    "search-hide-matches-text": "Esconder correspondências adicionais",
-    "search-more-match-text": "mais correspondência neste documento",
-    "search-more-matches-text": "mais correspondências neste documento",
-    "search-clear-button-title": "Limpar",
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
     "search-detached-cancel-button-title": "Cancelar",
     "search-submit-button-title": "Enviar",
-    "search-label": "Procurar"
+    "search-label": "Buscar"
   }
 }</script><script>
 
@@ -53,9 +53,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+      searchColumns: ["listing-image"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -89,13 +89,13 @@ gtag('config', 'G-2J79YYG9CZ', { 'anonymize_ip': true});
     <span class="navbar-title">Bea Milz</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Procurar"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-<a style="text-decoration: none; color:inherit;" class="nav-item" href="./en/index.html" id="language-link-en">English </a>
-<a style="text-decoration: none; color:inherit;" class="nav-item" href="./es/index.html" id="language-link-es">Español </a>
+<a style="text-decoration: none; color:inherit;" class="nav-item" href="https://beatrizmilz.github.io/blog-babel//en/index.html" id="language-link-en">English </a>
+<a style="text-decoration: none; color:inherit;" class="nav-item" href="https://beatrizmilz.github.io/blog-babel//index.html" id="language-link-pt">Português </a>
             <ul class="navbar-nav navbar-nav-scroll me-auto">
 <li class="nav-item">
     <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
@@ -133,37 +133,10 @@ gtag('config', 'G-2J79YYG9CZ', { 'anonymize_ip': true});
 
 </header><div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Eventos,Comunidades,tidyverse,RStudio,R Packages" data-listing-date-sort="1565578800000" data-listing-file-modified-sort="1701002368426" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
-<div class="thumbnail">
-<p><a href="./posts/2019-08-12-tidydevday/index.html"> <p class="card-img-top"><img src="https://i.imgur.com/Oz6x6GY.jpg" class="thumbnail-image card-img"></p> </a></p>
-</div>
-<div class="body">
-<a href="./posts/2019-08-12-tidydevday/index.html">
-<h3 class="no-anchor listing-title">
-Tidyverse developer day 2019 (tidy-dev-day)
-</h3>
-<div class="listing-subtitle">
-Este post tem como objetivo relatar a experiência de participar do Tidyverse Developer Day 2019.
-</div>
-<div class="listing-description">
-Esse post foi origalmente publicado no blog da Curso-R.
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/2019-08-12-tidydevday/index.html">
-<div class="listing-date">
-12 de ago. de 2019
-</div>
-<div class="listing-author">
-Beatriz Milz, Angélica Custódio
-</div>
-</a>
-</div>
-</div>
+
 </div>
 <div class="listing-no-matching d-none">
-Nenhum item correspondente
+No hay resultados
 </div>
 </div></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -219,12 +192,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copiada");
+    button.setAttribute("title", "Copiado");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copiada");
+      button.setAttribute("data-bs-title", "Copiado");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",

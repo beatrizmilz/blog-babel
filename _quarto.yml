@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs/
   preview:
     port: 4200
 
@@ -7,7 +8,7 @@ project:
 website:
   page-navigation: true
   title: "Bea Milz"
-  site-url: "https://beamilz.com/"
+  site-url: "https://beatrizmilz.github.io/blog-babel/"
   google-analytics: "G-2J79YYG9CZ"
   page-footer:
     left: "Blog made with 💜 and [Quarto](https://quarto.org/), by Beatriz Milz. License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
