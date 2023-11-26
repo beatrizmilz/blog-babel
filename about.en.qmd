@@ -17,14 +17,17 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/beatrizmilz/  
+    - icon: pin-map
+      text: "Osasco, Sao Paulo, Brazil"
+      href: https://maps.app.goo.gl/N3tpN5HcP2ygGHnE8   
 ---
 
-::: {#hero-heading}
-Hi! My name is Beatriz, and I am a R-Lady from Brazil 🇧🇷 💜.
+Hello!
 
-I'm a [tidyverse instructor certified by RStudio](https://education.rstudio.com/trainers/people/milz+beatriz/), and I teach R at [Curso-R](https://curso-r.com/).
+I am a [Posit/RStudio certified tidyverse instructor](https://education.rstudio.com/trainers/people/milz+beatriz/), a data scientist at [Curso-R](https://curso-r.com/), and a teacher at [Curso-R](https://curso-r.com/), at [cebrap.lab](https://cebrap.org.br/cebrap-lab/) and the [IME/USP Summer Program](https://www.ime.usp.br/verao/index.php/turmas/apresentacao.php).
 
-I have been writing about R in my blog since 2019. I'm mostly active in the Brazilian R community, co-organizing communities and events, such as: [R-Ladies São Paulo](https://rladies-sp.org/), [Latin-R](https://latin-r.com/), and [satRday São Paulo](https://saopaulo2019.satrdays.org/).
+I started writing about R in 2019. I am active in the R community in Brazil, participating in the co-organization of communities and events, such as: [R-Ladies São Paulo](https://rladies-sp.org), [Latin-R](https://latin-r.com/), and [satRday São Paulo](https://saopaulo2019.satrdays.org/).
 
-I'm a PhD Candidate at the [University of São Paulo](http://www.iee.usp.br/), in Environmental Sciences. My research is about **transparency of information** in the **management of water resources** that are used to supply the Macrometropolis of Sao Paulo.
-:::
+I am a PhD Candidate at the [University of São Paulo](http://www.iee.usp.br/), in Environmental Sciences.
+
+My research is about **information transparency** in the **management of water resources** used for public supply in the São Paulo Macrometropolis.

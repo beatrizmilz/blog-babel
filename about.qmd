@@ -16,16 +16,18 @@ about:
       href: https://github.com/beatrizmilz
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/beatrizmilz/     
+      href: https://www.linkedin.com/in/beatrizmilz/
+    - icon: pin-map
+      text: "Osasco, São Paulo, Brasil"
+      href: https://maps.app.goo.gl/N3tpN5HcP2ygGHnE8           
 ---
 
-Olá! Meu nome é Beatriz, e eu sou uma R-Lady do Brazil 🇧🇷 💜.
+Olá!
 
-Eu sou uma instrutora de tidyverse certificada pela RStudio, e eu ensino R na Curso-R.
+Sou uma [instrutora de tidyverse certificada pela Posit/RStudio](https://education.rstudio.com/trainers/people/milz+beatriz/), cientista de dados na [Curso-R](https://curso-r.com/), e professora na [Curso-R](https://curso-r.com/), no [cebrap.lab](https://cebrap.org.br/cebrap-lab/) e [Programa de Verão IME/USP](https://www.ime.usp.br/verao/index.php/turmas/apresentacao.php).
 
-Eu comecei a escrever textos sobre R em 2019.
+Comecei a escrever textos sobre R em 2019. Sou ativa na comunidade de R no Brasil, participando da co-organização de comunidades e eventos, como: [R-Ladies São Paulo](https://rladies-sp.org), [Latin-R](https://latin-r.com/), e [satRday São Paulo](https://saopaulo2019.satrdays.org/).
 
-Eu sou ativa na comunidade de R no Brasil, participando da co-organização de comunidades e eventos, como: R-Ladies São Paulo, Latin-R, e satRday São Paulo.
+Faço doutorado na [Universidade de São Paulo](http://www.iee.usp.br/), em Ciências Ambientais.
 
-Eu faço doutorado na Universidade de São Paulo, em Ciências Ambientais. Minha pesquisa é sobre transparência de informações na gestão de recursos hídricos usados para abastecimento público na Macrometrópole Paulista.
-
+Minha pesquisa é sobre **transparência de informações** na **gestão de recursos hídricos** usados para abastecimento público na Macrometrópole Paulista.
